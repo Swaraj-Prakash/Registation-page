@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<Html>
+
+<head>
+  <title>Registration Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+
+</head>
+
+
+  <br>
+  <br>
+  <form id="registation">
+    <div class="container">
+      <div class="form first">
+      <label> Name :</label><br>
+      <input type="text" name="firstname" placeholder="firstname" required />
+      <input type="text" name="lastname" placeholder="lastname" required /> <br>
+      <label> Date Of Birth: </label><br>
+      <input type="date" name="dateofbirth" required /> <br>
+      <label>Email</label><br>
+      <input size="50" type="email" id="email" name="email" required /> <br>
+      <label> Father Name:</label><br>
+      <input type="text" name="firstname" placeholder="firstname" required />
+      <input type="text" name="lastname" placeholder="lastname" required /> <br>
+      <label> Mother Name :</label><br>
+      <input type="text" name="firstname" placeholder="firstname" required />
+      <input type="text" name="lastname" placeholder="lastname" required /> <br>
+      <label>Gender :</label><br>
+      <input type="radio" value="Male" name="gender" checked> Male <br>
+      <input type="radio" value="Female" name="gender"> Female <br>
+      <input type="radio" value="Other" name="gender"> Other <br><br>
+      <label>Nationality</label><br>
+      <input type="text" size="50" name="firstname" size="15" required />
+      <label><br>
+        <label>Home Address:</label>
+        <br>
+        <textarea cols="50" rows="1" value="address" placeholder="street address" required></textarea><br>
+        <input type="text" placeholder="city">
+        <input type="text" list="country" placeholder="country" required /><br>
+        <datalist id="country">
+          <option>India</option>
+          <option>Japan</option>
+          <option>USA</option>
+          <option>UK</option>
+        </datalist>
+        <br>
+        <label>
+          TelePhone-Home:
+        </label><br>
+        <input type="text" name="phone" size="50" max="10" placeholder="### ### ####"/><br>
+        <label>
+          TelePhone-Moblie:
+        </label><br>
+        <input type="text" name="country code" value="+91" size="2" />
+        <input type="text" name="phone" size="39" required max="10" placeholder="### ### ####"/> <br> <br>
+        
+        <div>
+        <button class="btn">
+          <i style="font-size:24px" class="fa">&#xf0da;</i> <span class="btnText"><a href="HomePage2.html" style="text-decoration: none ;">Next</a></span> </i>
+         
+        </button>
+        </div>
+    
+
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
